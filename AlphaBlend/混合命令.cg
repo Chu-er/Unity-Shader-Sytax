@@ -1,0 +1,6 @@
+Blend SrcAlpha OneMinusSrcAlpha // 传统透明度
+Blend One OneMinusSrcAlpha // 预乘透明度
+Blend One One // 叠加
+Blend OneMinusDstColor One // 柔和叠加
+Blend DstColor Zero // 相乘——正片叠底
+Blend DstColor SrcColor // 两倍相乘
